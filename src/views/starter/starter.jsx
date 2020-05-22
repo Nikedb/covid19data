@@ -17,7 +17,7 @@ const Starter = () => {
         <div>
             <Row>
                 <Col sm={12}>
-                    <SalesSummary data={data && data[0]}/>
+                    <SalesSummary allData={data && data} data={data && data[0]}/>
                 </Col>
             </Row>
             <Row>

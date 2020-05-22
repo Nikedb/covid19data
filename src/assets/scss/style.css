@@ -10803,12 +10803,26 @@ a.text-secondary:focus {
     font-size: 20px;
 }
 
+.fs14 {
+    font-size: 14px;
+}
+
+
+@media (min-width: 500px) {
+    .tooltip-margin {
+        margin-left: 350px;
+        font-size: 14px;
+    }
+}
+
 .table tr:hover {
     background: #f1f1f1;
 }
+
 .table th, .table td {
     line-height: 40px;
 }
+
 .icon-shape {
     padding: 12px;
     text-align: center;
@@ -10816,6 +10830,11 @@ a.text-secondary:focus {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+
+.tooltip {
+    background-color: red;
+    font-size: 100px;
 }
 
 .feedSection {
